@@ -5,9 +5,9 @@ lineas
 */
 
 /*
-Descripcion: Ejemplo de Hola Mundo por console.log.
-Desarrollador: Samuel Yabeta Villagomez
-Fecha: 2024-04-15
-Cambios: Ninguno
+Descripcion:
+
+Desarrollador:brandon saucedo 
+Fecha: 2024-04-1
 */
 console.log("Hola Mundo EXTRNO, se vera?");
