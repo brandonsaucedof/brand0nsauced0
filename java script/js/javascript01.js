@@ -1,6 +1,7 @@
 /*
 Descripcion: Ejercicios de Javascript 
-Desarrollador: Samuel Yabeta Villagomez
+Desarrollador: brandon saucedo
+
 Fecha: 2024-04-15
 Cambios: Ninguno
 */
