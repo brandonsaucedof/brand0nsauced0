@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>document</title>
+<link rel="stylesheet" type ="text/css" href="css/botones.css">
+<script src="js/botones.js"></script>
+</head>
+<body>
+    <p>
+        <button onClick="mostrarFormulario('formulario_alumno')">Registro de Alumno</button>
+        <button onClick="mostrarFormulario('formulario_notas')">Notas</button>
+        <button onClick="mostrarFormulario('formulario_materias')">Materias</button>
+    </p>
+    
+    <div class="content" id="formulario_alumno" style="display: none;">
+        <h2>Registro de Alumno</h2>
+        <form>
+            <label for="nombre_alumno">Nombre:</label><br>
+            <input type="text" id="nombre_alumno" name="nombre_alumno"><br>
+            <label for="direccion_alumno">Dirección:</label><br>
+            <input type="text" id="direccion_alumno" name="direccion_alumno"><br>
+            <label for="telefono_alumno">Teléfono:</label><br>
+            <input type="tel" id="telefono_alumno" name="telefono_alumno"><br><br>
+            <button type="submit">Guardar</button>
+        </form>
+    </div>
+
+    <div class="content" id="formulario_notas" style="display: none;">
+        <h2>Notas</h2>
+        <form>
+            <label for="alumno_notas">Alumno:</label><br>
+            <input type="text" id="alumno_notas" name="alumno_notas"><br>
+            <label for="materia_notas">Materia:</label><br>
+            <input type="text" id="materia_notas" name="materia_notas"><br>
+            <label for="nota_notas">Nota:</label><br>
+            <input type="number" id="nota_notas" name="nota_notas"><br><br>
+            <button type="submit">Guardar</button>
+        </form>
+    </div>
+
+    <div class="content" id="formulario_materias" style="display: none;">
+        <h2>Materias</h2>
+        <form>
+            <label for="codigo_materia">Código de Materia:</label><br>
+            <input type="text" id="codigo_materia" name="codigo_materia"><br>
+            <label for="nombre_materia">Nombre de Materia:</label><br>
+            <input type="text" id="nombre_materia" name="nombre_materia"><br>
+            <label for="semestre_materia">Semestre:</label><br>
+            <input type="text" id="semestre_materia" name="semestre_materia"><br><br>
+            <button type="submit">Guardar</button>
+        </form>
+    </div>
+</body>
+</html>
