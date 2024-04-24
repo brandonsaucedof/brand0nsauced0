@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Estudiantes</title>
+    <link rel="stylesheet" type="text/css" href="css/form.css">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="js/form.js"></script>
+</head>
+<body>
+
+<h2>Registro de Estudiantes</h2>
+
+<section class="get-in-touch">
+    <h1 class="title">Contacto</h1>
+    <form id="registroForm" class="contact-form row">
+       <div class="form-field col-lg-6">
+          <input id="ci" class="input-text js-input" type="text" required>
+          <label class="label" for="ci">Cédula de Identidad</label>
+       </div>
+       <div class="form-field col-lg-6">
+          <input id="nombre" class="input-text js-input" type="text" required>
+          <label class="label" for="nombre">Nombre</label>
+       </div>
+       <div class="form-field col-lg-6">
+          <input id="fechaNacimiento" class="input-text js-input" type="date" required>
+          <label class="label" for="fechaNacimiento">Fecha de Nacimiento</label>
+       </div>
+       <div class="form-field col-lg-12">
+          <input id="direccion" class="input-text js-input" type="text" required>
+          <label class="label" for="direccion">Dirección</label>
+       </div>
+       <div class="form-field col-lg-12">
+          <input class="submit-btn" type="submit" value="Enviar">
+       </div>
+    </form>
+
+    <div class="table-container">
+        <table id="tablaEstudiantes" class="table">
+            <thead>
+                <tr>
+                    <th>Cédula de Identidad</th>
+                    <th>Nombre</th>
+                    <th>Fecha de Nacimiento</th>
+                    <th>Dirección</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Aquí se agregarán las filas de la tabla dinámicamente -->
+            </tbody>
+        </table>
+    </div>
+ </section>
+
+</body>
+</html>
